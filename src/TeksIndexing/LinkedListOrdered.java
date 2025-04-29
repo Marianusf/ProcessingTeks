@@ -25,5 +25,13 @@ public class LinkedListOrdered <E> extends LinkedList <E>{
         }
         return null;
     }
+    public String toString(){
+        String temp="";
+        ListIterator<E> iterator=this.listIterator();
+        while (iterator.hasNext()){
+            temp =temp + iterator.next()+" ";
+        }
+        return temp;
+    }
 
 }
