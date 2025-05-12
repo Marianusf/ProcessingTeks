@@ -2,7 +2,7 @@ package TeksIndexing;
 
 public class LinkedListOrderedMain {
     public static void main(String[] args) {
-        LinkedListOrdered<String>linkedListSort= new LinkedListOrdered();
+        LinkedListOrdered<String> linkedListSort = new LinkedListOrdered();
 
         linkedListSort.addSort("lumpia");
         linkedListSort.addSort("semarang");
